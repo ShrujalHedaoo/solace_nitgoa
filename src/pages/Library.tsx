@@ -1,0 +1,70 @@
+import React from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
+
+const editions = [
+  {
+    title: "Edition 101",
+    url: "https://flipbookpdf.net/web/site/39c2ef3d2dc693c6f3cd77c571dca048f952d891202508.pdf.html",
+  },
+  {
+    title: "Edition 102",
+    url: "https://flipbookpdf.net/web/site/135276758f1f24c138bfb8bed5aa41462fb4818e202508.pdf.html",
+  },
+  {
+    title: "Edition 103",
+    url: "https://flipbookpdf.net/web/site/f28c0f784baec137e948b1f108d27b2ae8d9d9d7202508.pdf.html",
+  },
+  {
+    title: "Edition 104",
+    url: "https://flipbookpdf.net/web/site/116afa374e858371959613773048b695e8ffca51202508.pdf.html",
+  },
+];
+
+const Library: React.FC = () => {
+  return (
+    <>
+      <Helmet>
+        <title>SOLACE Library | Flipbook Editions 101–104</title>
+        <meta
+          name="description"
+          content="Browse the SOLACE Library and open flipbook editions 101 to 104."
+        />
+        <link rel="canonical" href="/library" />
+      </Helmet>
+      <Header />
+      <main className="bg-background">
+        <section className="container mx-auto px-6 py-10">
+          <h1 className="text-3xl font-bold text-foreground mb-2">SOLACE Library</h1>
+          <p className="text-muted-foreground mb-8">Open recent SOLACE BIWEEKLY editions.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {editions.map((e) => (
+              <a
+                key={e.title}
+                href={e.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Open ${e.title} flipbook`}
+              >
+                <Card className="h-full transition-transform hover:-translate-y-1 hover:shadow-lg">
+                  <CardHeader>
+                    <CardTitle>{e.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="secondary" className="w-full">Open Flipbook</Button>
+                  </CardContent>
+                </Card>
+              </a>
+            ))}
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+};
+
+export default Library;
