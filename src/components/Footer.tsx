@@ -20,13 +20,24 @@ const Footer = () => {
           
           <div className="flex items-center gap-3">
             <Mail className="w-4 h-4 text-solace-accent" />
-            <span className="text-sm">solacenitgoa@gmail.com
-          </span>
+            <a 
+              href="mailto:solacenitgoa@gmail.com" 
+              className="text-sm hover:text-solace-accent transition-colors"
+            >
+              solacenitgoa@gmail.com
+            </a>
           </div>
           
           <div className="flex items-center gap-3">
             <MessageCircle className="w-4 h-4 text-solace-accent" />
-            <span className="text-sm">+91 79848 84347</span>
+            <a 
+              href="https://wa.me/917984884347" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-sm hover:text-solace-accent transition-colors"
+            >
+              +91 79848 84347
+            </a>
           </div>
         </div>
 
@@ -42,8 +53,19 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-white/20 pt-4 text-center">
+        <div className="border-t border-white/20 pt-4 text-center space-y-2">
           <p className="text-xs opacity-75">© 2025 SOLACE - Literature & Drama Society, NIT Goa. All rights reserved.</p>
+          <p className="text-xs opacity-75">
+            Designed and Developed by{" "}
+            <a 
+              href="https://www.linkedin.com/in/shrujal-hedaoo-b96b74347" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-solace-accent transition-colors font-medium"
+            >
+              Shrujal Hedaoo
+            </a>
+          </p>
         </div>
       </div>
     </footer>;

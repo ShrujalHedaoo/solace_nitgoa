@@ -65,7 +65,7 @@ const members: Member[] = [
     name: "Sameer",
     role: "Editorial Team",
     image: "https://i.ibb.co/YBYwr65p/sameer.jpg",
-    quote: "I don't trip, I do random gravity checks",
+    quote: "I don't make mistakes - I create unexpected plotlines",
   },
   {
     name: "Soha",

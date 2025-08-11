@@ -4,16 +4,6 @@ const solaceLogo = "/lovable-uploads/ee1a9ffb-9254-4838-8c16-c1d3d9c6b330.png";
 const Header = () => {
   return (
     <div className="relative">
-      {/* Status Bar */}
-      <div className="flex items-center justify-between px-4 py-2 text-sm text-white bg-primary">
-        <span className="font-medium">Veti</span>
-        <div className="flex items-center gap-1">
-          <Signal className="w-4 h-4" />
-          <Wifi className="w-4 h-4" />
-          <Battery className="w-4 h-4" />
-        </div>
-      </div>
-      
       {/* Main Header */}
       <div className="relative bg-gradient-to-b from-primary to-solace-primary-light text-white p-6 pb-8">
         <div className="flex flex-col items-center space-y-4">

@@ -22,8 +22,10 @@ const Navigation = () => {
               onClick={() => {
                 if (item.label === "Library") navigate("/library");
                 if (item.label === "Members") navigate("/members");
+                if (item.label === "Calendar") navigate("/calendar");
+                if (item.label === "Advertisements") navigate("/advertisements");
               }}
-              role={["Library", "Members"].includes(item.label) ? "link" : undefined}
+              role={["Library", "Members", "Calendar", "Advertisements"].includes(item.label) ? "link" : undefined}
               aria-label={item.label}
             >
               <div
