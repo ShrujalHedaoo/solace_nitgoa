@@ -61,7 +61,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/shrujal-hedaoo-b96b74347" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:text-solace-accent transition-colors font-medium"
+              className="hover:text-solace-accent transition-colors font-medium underline"
             >
               Shrujal Hedaoo
             </a>
