@@ -38,6 +38,7 @@
   border-radius: 10px;
   color: #fff;
   font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
   position: relative;
 }
 
@@ -103,9 +104,12 @@
 }
 
 .front .inner p{
+  font-family: 'Playfair Display', serif;
   font-size: 2rem;
+  font-weight: 600;
   margin-bottom: 2rem;
   position: relative;
+  letter-spacing: 0.02em;
 }
 
 .front .inner p:after{
@@ -122,8 +126,11 @@
 }
 
 .front .inner span{
+  font-family: 'Playfair Display', serif;
   color: rgba(255,255,255,0.85);
   font-weight: 500;
+  font-style: italic;
+  letter-spacing: 0.01em;
 }
 
 @media screen and (max-width: 64rem){

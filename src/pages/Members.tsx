@@ -108,7 +108,7 @@ const Members: React.FC = () => {
       <Header />
       <main className="bg-background">
         <section className="container mx-auto px-6 py-10">
-          <h1 className="text-3xl font-bold text-foreground text-center mb-8">
+          <h1 className="text-3xl font-playfair font-bold text-foreground text-center mb-8">
             SOLACE Members — Meet the Crew
           </h1>
 
