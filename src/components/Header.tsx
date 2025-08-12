@@ -7,7 +7,7 @@ const Header = () => {
       {/* Main Header */}
       <div className="relative bg-gradient-to-b from-primary to-solace-primary-light text-white p-6 pb-8">
         <div className="flex flex-col items-center space-y-4">
-          <h1 className="text-3xl font-bold tracking-wider">SOLACE</h1>
+          <h1 className="text-6xl font-cinzel font-bold tracking-widest">SOLACE</h1>
           
           {/* Logo Circle */}
           <div className="relative">
