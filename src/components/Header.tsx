@@ -15,7 +15,7 @@ const Header = () => {
               <img 
                 src={solaceLogo} 
                 alt="SOLACE Logo" 
-                className="w-24 h-24 object-contain"
+                className="w-28 h-28 object-contain"
               />
             </div>
             {/* Decorative elements */}
