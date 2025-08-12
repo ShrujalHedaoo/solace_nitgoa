@@ -17,8 +17,8 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             {/* Hero Section */}
             <div className="text-center mb-16">
-              <h1 className="text-5xl font-playfair font-bold text-foreground mb-6">
-                About <span className="text-solace-primary">SOLACE</span>
+              <h1 className="text-7xl font-playfair font-bold text-foreground mb-6">
+                About <span className="font-cinzel text-8xl text-solace-primary tracking-wider">SOLACE</span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-solace-primary to-solace-accent mx-auto rounded-full"></div>
             </div>
