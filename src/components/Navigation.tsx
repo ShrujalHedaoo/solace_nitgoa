@@ -1,4 +1,4 @@
-import { Calendar, Users, Library, Megaphone } from "lucide-react";
+import { Calendar, Users, Library, Megaphone, Info } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const navigationItems = [
@@ -6,13 +6,14 @@ const navigationItems = [
   { icon: Users, label: "Members", color: "bg-green-500" },
   { icon: Library, label: "Library", color: "bg-orange-500" },
   { icon: Megaphone, label: "Advertisements", color: "bg-purple-500" },
+  { icon: Info, label: "About", color: "bg-teal-500" },
 ];
 
 const Navigation = () => {
   const navigate = useNavigate();
   return (
     <div className="px-6 py-4 bg-background">
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-5 gap-4">
         {navigationItems.map((item, index) => {
           const IconComponent = item.icon;
           return (
@@ -24,8 +25,9 @@ const Navigation = () => {
                 if (item.label === "Members") navigate("/members");
                 if (item.label === "Calendar") navigate("/calendar");
                 if (item.label === "Advertisements") navigate("/advertisements");
+                if (item.label === "About") navigate("/about");
               }}
-              role={["Library", "Members", "Calendar", "Advertisements"].includes(item.label) ? "link" : undefined}
+              role={["Library", "Members", "Calendar", "Advertisements", "About"].includes(item.label) ? "link" : undefined}
               aria-label={item.label}
             >
               <div
