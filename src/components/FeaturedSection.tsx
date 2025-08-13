@@ -13,7 +13,7 @@ const FeaturedSection = () => {
       >
         <div className="bg-card rounded-2xl overflow-hidden shadow-lg border border-border transition-transform duration-200 group-hover:shadow-2xl group-hover:-translate-y-1 group-hover:scale-[1.02]">
           <div className="relative h-48">
-            <img src="/lovable-uploads/00bb4ea0-d68c-4eec-a874-d06cd34dd03a.png" alt="SOLACE BIWEEKLY flipbook cover" className="w-full h-full object-cover" loading="lazy" />
+            <img src="/lovable-uploads/ec3da0e8-30db-4ef2-beaa-a07eca8e6db0.png" alt="SOLACE BIWEEKLY flipbook cover" className="w-full h-full object-cover" loading="lazy" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
             <div className="absolute bottom-4 left-4 text-white">
               <h3 className="text-xl font-bold mb-2">SOLACE BIWEEKLY</h3>
