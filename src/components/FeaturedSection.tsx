@@ -5,7 +5,7 @@ const FeaturedSection = () => {
   return <div className="px-6 py-4">
       <h2 className="text-lg font-bold text-foreground mb-4">Featured</h2>
       <a
-        href="https://flipbookpdf.net/web/site/1e75e4d0c20dc875de243d358d8d82ff6e93058a202508.pdf.html"
+        href="https://flipbookpdf.net/web/site/863c1230d26aa17467814756e98852473bffbb88202508.pdf.html"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Open SOLACE BIWEEKLY flipbook"
@@ -20,7 +20,7 @@ const FeaturedSection = () => {
               <div className="space-y-1">
                 <div className="flex items-center gap-2 text-sm">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <span>August 4, 2025</span>
+                  <span>August 14, 2025</span>
                 </div>
               </div>
             </div>
