@@ -176,7 +176,7 @@ const Calendar: React.FC = () => {
           <div className="text-center animate-fade-in" style={{animationDelay: "0.6s"}}>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-muted-foreground font-medium">
-                Embark on a journey of literary excellence and creative expression
+                Where words come alive and creativity takes flight ✨
               </p>
             </div>
           </div>
