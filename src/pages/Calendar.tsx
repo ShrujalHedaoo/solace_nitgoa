@@ -175,26 +175,9 @@ const Calendar: React.FC = () => {
           {/* Enhanced Footer Info */}
           <div className="text-center animate-fade-in" style={{animationDelay: "0.6s"}}>
             <div className="max-w-4xl mx-auto">
-              <p className="text-xl text-muted-foreground mb-6 font-medium">
+              <p className="text-xl text-muted-foreground font-medium">
                 Embark on a journey of literary excellence and creative expression
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="p-6 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 hover-scale">
-                  <CalendarIcon className="w-8 h-8 text-primary mx-auto mb-3" />
-                  <h3 className="font-semibold text-foreground mb-2">Regular Editions</h3>
-                  <p className="text-sm text-muted-foreground">Bi-weekly literary gatherings</p>
-                </div>
-                <div className="p-6 rounded-2xl bg-gradient-to-br from-accent/10 to-secondary/10 border border-accent/20 hover-scale">
-                  <Sparkles className="w-8 h-8 text-accent mx-auto mb-3" />
-                  <h3 className="font-semibold text-foreground mb-2">Special Events</h3>
-                  <p className="text-sm text-muted-foreground">Unique celebrations & activities</p>
-                </div>
-                <div className="p-6 rounded-2xl bg-gradient-to-br from-secondary/10 to-primary/10 border border-secondary/20 hover-scale">
-                  <Star className="w-8 h-8 text-secondary mx-auto mb-3" />
-                  <h3 className="font-semibold text-foreground mb-2">Literary Arts</h3>
-                  <p className="text-sm text-muted-foreground">Poetry, drama & creative expression</p>
-                </div>
-              </div>
             </div>
           </div>
         </section>
