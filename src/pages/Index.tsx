@@ -30,7 +30,7 @@ const Index = () => {
               </div>
             </div>
             <button 
-              onClick={() => window.open('https://forms.google.com/create', '_blank')}
+              onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeF03RqLZTyQaUfuw3v3oS5n7hx_j_2LUmZ_6gZzJ9GFf8-vQ/viewform', '_blank')}
               className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 text-sm"
             >
               Join Now
