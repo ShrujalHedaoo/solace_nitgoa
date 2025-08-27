@@ -16,11 +16,11 @@ const FeaturedSection = () => {
             <img src="/lovable-uploads/ec3da0e8-30db-4ef2-beaa-a07eca8e6db0.png" alt="SOLACE BIWEEKLY flipbook cover" className="w-full h-full object-cover" loading="lazy" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
             <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="text-xl font-bold mb-2">SOLACE BIWEEKLY</h3>
+              <h3 className="text-xl font-bold mb-2">SOLACE BIWEEKLY - Freshers Edition</h3>
               <div className="space-y-1">
                 <div className="flex items-center gap-2 text-sm">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <span>August 13, 2025</span>
+                  <span>August 27, 2025</span>
                 </div>
               </div>
             </div>
