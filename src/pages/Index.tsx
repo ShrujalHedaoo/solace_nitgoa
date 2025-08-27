@@ -53,7 +53,7 @@ const Index = () => {
           <EventCard
             title="Orientation Nukkad Natak"
             date="August 26"
-            image="/lovable-uploads/ed927343-a336-4863-8a57-0d7e05fa9dee.png"
+            image="/lovable-uploads/43f2c450-8b6d-4710-ae3d-0c886dc5772c.png"
             location="Mandovi Seminar Hall"
             time="6:30 PM"
           />
