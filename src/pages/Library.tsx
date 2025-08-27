@@ -26,16 +26,20 @@ const editions = [
     title: "Edition 201",
     url: "https://www.flipbookpdf.net/web/site/1e75e4d0c20dc875de243d358d8d82ff6e93058a202508.pdf.html",
   },
+  {
+    title: "Edition 202",
+    url: "https://flipbookpdf.net/web/site/863c1230d26aa17467814756e98852473bffbb88202508.pdf.html",
+  },
 ];
 
 const Library: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>SOLACE Library | Flipbook Editions 101–104</title>
+        <title>SOLACE Library | Flipbook Editions 101–202</title>
         <meta
           name="description"
-          content="Browse the SOLACE Library and open flipbook editions 101 to 104."
+          content="Browse the SOLACE Library and open flipbook editions 101 to 202."
         />
         <link rel="canonical" href="/library" />
       </Helmet>
