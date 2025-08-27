@@ -66,8 +66,8 @@ const Index = () => {
         <div className="space-y-3">
           <NewsCard
             title="College life meets Vikram–Betal👻 Watch our Nukkad Natak!"
-            description="Join us for our theatre production auditions. All students welcome!"
-            date="August 8, 2025"
+            description="🎭 Epic storytelling meets modern college drama! Click to watch our thrilling performance that'll leave you spellbound!"
+            date="August 26, 2025"
             image="/lovable-uploads/ed927343-a336-4863-8a57-0d7e05fa9dee.png"
             onClick={() => window.open('https://drive.google.com/file/d/1aOfQv213Tc-oRFvdAmqPbd6JHGakpYf8/view?usp=sharing', '_blank')}
           />
