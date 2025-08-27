@@ -3,11 +3,15 @@ interface NewsCardProps {
   description: string;
   date: string;
   image: string;
+  onClick?: () => void;
 }
 
-const NewsCard = ({ title, description, date, image }: NewsCardProps) => {
+const NewsCard = ({ title, description, date, image, onClick }: NewsCardProps) => {
   return (
-    <div className="bg-card rounded-xl overflow-hidden shadow-md border border-border">
+    <div 
+      className={`bg-card rounded-xl overflow-hidden shadow-md border border-border ${onClick ? 'cursor-pointer hover:shadow-lg transition-shadow' : ''}`}
+      onClick={onClick}
+    >
       <div className="flex">
         <div className="w-20 h-20 flex-shrink-0">
           <img

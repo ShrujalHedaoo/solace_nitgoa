@@ -65,10 +65,11 @@ const Index = () => {
         <h2 className="text-lg font-bold text-foreground mb-4">Latest News</h2>
         <div className="space-y-3">
           <NewsCard
-            title="Janmashtami Skit Auditions Open"
+            title="College life meets Vikram–Betal👻 Watch our Nukkad Natak!"
             description="Join us for our theatre production auditions. All students welcome!"
             date="August 8, 2025"
             image={shakespeareFestival}
+            onClick={() => window.open('https://drive.google.com/file/d/1aOfQv213Tc-oRFvdAmqPbd6JHGakpYf8/view?usp=sharing', '_blank')}
           />
           <NewsCard
             title="Second-Hand Sale Listings Now Open"
