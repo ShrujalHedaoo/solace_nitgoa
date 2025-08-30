@@ -19,7 +19,6 @@ const Calendar: React.FC = () => {
       month: "September", 
       color: "from-amber-400 to-orange-600",
       events: [
-        { date: "1st", title: "fun week", type: "special" },
         { date: "10th", title: "edition 3", type: "regular" }
       ]
     },
