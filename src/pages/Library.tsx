@@ -34,6 +34,10 @@ const editions = [
     title: "Edition 203 - Freshers edition",
     url: "https://flipbookpdf.net/web/site/2549e940afa54aad4202d59f637b4a5cc9f13f02202508.pdf.html",
   },
+  {
+    title: "Edition 204",
+    url: "https://flipbookpdf.net/web/site/a633966a6dc18c5d69fb98075b73c28fa0dbb681202509.pdf.html",
+  },
 ];
 
 const Library: React.FC = () => {
