@@ -40,7 +40,7 @@ const members: Member[] = [
   {
     name: "Aryan Kumar",
     role: "Marketing Head",
-    image: "https://ibb.co/gLjnLSJw",
+    image: "https://i.ibb.co/0RDwRCrZ/aryan-kumar.jpg",
     quote: "Slow is Smooth, Smooth is Fast",
   },
   {
