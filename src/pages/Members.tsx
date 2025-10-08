@@ -38,6 +38,12 @@ const members: Member[] = [
     quote: "People told me to aim for the stars—So I got a water gun🔫",
   },
   {
+    name: "Aryan Kumar",
+    role: "Marketing Head",
+    image: "https://ibb.co/gLjnLSJw",
+    quote: "Slow is Smooth, Smooth is Fast",
+  },
+  {
     name: "Shrujal",
     role: "PR and Out-Reach Head",
     image: "https://i.ibb.co/QFRbPTLw/shru.jpg",
