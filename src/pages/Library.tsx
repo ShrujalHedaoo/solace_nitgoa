@@ -36,7 +36,11 @@ const editions = [
   },
   {
     title: "Edition 204",
-    url: "https://flipbookpdf.net/web/site/a633966a6dc18c5d69fb98075b73c28fa0dbb681202509.pdf.html",
+    url: "https://www.flipbookpdf.net/web/site/a633966a6dc18c5d69fb98075b73c28fa0dbb681202509.pdf.html",
+  },
+  {
+    title: "Edition 205",
+    url: "https://www.flipbookpdf.net/web/site/a633966a6dc18c5d69fb98075b73c28fa0dbb681202509.pdf.html",
   },
 ];
 
