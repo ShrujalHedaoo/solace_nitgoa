@@ -6,11 +6,15 @@ interface EventCardProps {
   location?: string;
   image: string;
   time?: string;
+  onClick?: () => void;
 }
 
-const EventCard = ({ title, date, location, image, time }: EventCardProps) => {
+const EventCard = ({ title, date, location, image, time, onClick }: EventCardProps) => {
   return (
-    <div className="bg-card rounded-2xl overflow-hidden shadow-lg border border-border">
+    <div 
+      className={`bg-card rounded-2xl overflow-hidden shadow-lg border border-border ${onClick ? 'cursor-pointer transition-transform duration-200 hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02]' : ''}`}
+      onClick={onClick}
+    >
       <div className="relative h-32">
         <img
           src={image}

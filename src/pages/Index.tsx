@@ -49,6 +49,7 @@ const Index = () => {
             image={solaceNightLive}
             location="Sal Seminar Hall"
             time="7:00 PM"
+            onClick={() => window.open(solaceNightLive, '_blank')}
           />
         </div>
       </div>
