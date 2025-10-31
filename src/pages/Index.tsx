@@ -59,6 +59,13 @@ const Index = () => {
         <h2 className="text-lg font-bold text-foreground mb-4">Latest News</h2>
         <div className="space-y-3">
           <NewsCard
+            title="New Edition Out Now!"
+            description="📰 Check out our latest biweekly edition packed with stories, updates, and creative content from SOLACE!"
+            date="October 31, 2025"
+            image="/lovable-uploads/ee1a9ffb-9254-4838-8c16-c1d3d9c6b330.png"
+            onClick={() => window.open('/solace-edition-06.pdf', '_blank')}
+          />
+          <NewsCard
             title="College life meets Vikram–Betal👻 Watch our Nukkad Natak!"
             description="🎭 Epic storytelling meets modern college drama! Click to watch our thrilling performance that'll leave you spellbound!"
             date="August 26, 2025"
