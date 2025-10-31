@@ -5,7 +5,7 @@ import NewsCard from "@/components/NewsCard";
 import FeaturedSection from "@/components/FeaturedSection";
 import Footer from "@/components/Footer";
 import hamletPerformance from "@/assets/hamlet-performance.jpg";
-
+import solaceNightLive from "@/assets/solace-night-live.jpg";
 import shakespeareFestival from "@/assets/shakespeare-festival.jpg";
 
 const Index = () => {
@@ -44,18 +44,11 @@ const Index = () => {
         <h2 className="text-lg font-bold text-foreground mb-4">Upcoming Events</h2>
         <div className="grid grid-cols-2 gap-4">
           <EventCard
-            title="Janmashtami Skit"
-            date="August 15"
-            image="/lovable-uploads/4c34165e-9222-47d1-8c7b-bc940e7c7798.png"
+            title="SOLACE NIGHT LIVE"
+            date="November 6"
+            image={solaceNightLive}
             location="Sal Seminar Hall"
             time="7:00 PM"
-          />
-          <EventCard
-            title="Orientation Nukkad Natak"
-            date="August 26"
-            image="/lovable-uploads/43f2c450-8b6d-4710-ae3d-0c886dc5772c.png"
-            location="Mandovi Seminar Hall"
-            time="6:30 PM"
           />
         </div>
       </div>
