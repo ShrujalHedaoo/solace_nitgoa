@@ -5,7 +5,7 @@ const FeaturedSection = () => {
   return <div className="px-6 py-4">
       <h2 className="text-lg font-bold text-foreground mb-4">Featured</h2>
       <a
-        href="https://flipbookpdf.net/web/site/6d12900bd690ca3d7019a444276772e6510f9f68202510.pdf.html"
+        href="https://flipbookpdf.net/web/site/fd884d9905b48277269fee0af748b0af4af1da0b202510.pdf.html"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Open SOLACE BIWEEKLY flipbook"
