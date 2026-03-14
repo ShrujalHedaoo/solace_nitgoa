@@ -61,7 +61,7 @@ const Index = () => {
           <NewsCard
             title="New Edition Out Now!"
             description="📰 Check out our latest biweekly edition packed with stories, updates, and creative content from SOLACE!"
-            date="October 31, 2025"
+            date="March 13, 2026"
             image="/lovable-uploads/ee1a9ffb-9254-4838-8c16-c1d3d9c6b330.png"
             onClick={() => window.open('/solace-edition-06.pdf', '_blank')}
           />
