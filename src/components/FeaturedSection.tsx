@@ -20,7 +20,7 @@ const FeaturedSection = () => {
               <div className="space-y-1">
                 <div className="flex items-center gap-2 text-sm">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <span>October 24, 2025</span>
+                  <span>March 13, 2026</span>
                 </div>
               </div>
             </div>
