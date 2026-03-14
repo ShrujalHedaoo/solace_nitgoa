@@ -46,6 +46,10 @@ const editions = [
     title: "Edition 206",
     url: "https://flipbookpdf.net/web/site/6d12900bd690ca3d7019a444276772e6510f9f68202510.pdf.html",
   },
+  {
+    title: "Edition 207",
+    url: "https://www.flipbookpdf.net/web/site/fd884d9905b48277269fee0af748b0af4af1da0b202510.pdf.html",
+  },
 ];
 
 const Library: React.FC = () => {
