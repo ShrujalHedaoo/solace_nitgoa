@@ -13,6 +13,7 @@ const About = () => {
       
       <div className="min-h-screen bg-background">
         <Header />
+        <Navigation />
         
         <main className="container mx-auto px-6 py-16">
           <div className="max-w-4xl mx-auto">

@@ -59,6 +59,7 @@ const Calendar: React.FC = () => {
         <link rel="canonical" href="/calendar" />
       </Helmet>
       <Header />
+      <Navigation />
       <main className="bg-gradient-to-br from-background via-muted/20 to-background min-h-screen relative overflow-hidden">
         {/* Floating Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
