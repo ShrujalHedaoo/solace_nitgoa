@@ -113,6 +113,7 @@ const Members: React.FC = () => {
         <link rel="canonical" href="/members" />
       </Helmet>
       <Header />
+      <Navigation />
       <main className="bg-background">
         <section className="container mx-auto px-6 py-10">
           <h1 className="text-3xl font-playfair font-bold text-foreground text-center mb-8">

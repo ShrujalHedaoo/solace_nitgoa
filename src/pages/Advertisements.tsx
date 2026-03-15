@@ -16,6 +16,7 @@ const Advertisements: React.FC = () => {
         <link rel="canonical" href="/advertisements" />
       </Helmet>
       <Header />
+      <Navigation />
       <main className="bg-background min-h-screen">
         <section className="container mx-auto px-6 py-10">
           <h1 className="text-3xl font-bold text-foreground text-center mb-8">
