@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const About = () => {
@@ -12,6 +13,7 @@ const About = () => {
       
       <div className="min-h-screen bg-background">
         <Header />
+        <Navigation />
         
         <main className="container mx-auto px-6 py-16">
           <div className="max-w-4xl mx-auto">

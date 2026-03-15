@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "@/components/Header";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -64,6 +65,7 @@ const Library: React.FC = () => {
         <link rel="canonical" href="/library" />
       </Helmet>
       <Header />
+      <Navigation />
       <main className="bg-background">
         <section className="container mx-auto px-6 py-10">
           <h1 className="text-3xl font-bold text-foreground mb-2">SOLACE Library</h1>

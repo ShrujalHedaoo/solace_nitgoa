@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "@/components/Header";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Helmet } from "react-helmet-async";
 import { Card, CardContent } from "@/components/ui/card";
@@ -58,6 +59,7 @@ const Calendar: React.FC = () => {
         <link rel="canonical" href="/calendar" />
       </Helmet>
       <Header />
+      <Navigation />
       <main className="bg-gradient-to-br from-background via-muted/20 to-background min-h-screen relative overflow-hidden">
         {/* Floating Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
